@@ -3,8 +3,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import '../bower_components/bootstrap-social/bootstrap-social.scss';
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import '../bower_components/font-awesome/scss/font-awesome';
-@import '../../node_modules/gentelella/src/scss/custom.scss';
-
 /**
  * App-wide Styles
  */
@@ -21,6 +19,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import 'admin/admin';
 @import 'main/main';
 @import '../components/footer/footer';
+@import '../components/navbar/navbar';
 @import '../components/modal/modal';
 @import '../components/oauth-buttons/oauth-buttons';
 /* endinject */
