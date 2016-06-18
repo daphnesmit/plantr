@@ -5,6 +5,7 @@ angular.module('plantrApp')
     $stateProvider
       .state('plants', {
         url: '/plants',
-        template: '<plants></plants>'
+        template: '<plants></plants>',
+        authenticate: true
       });
   });
