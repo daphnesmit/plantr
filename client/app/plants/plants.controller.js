@@ -1,7 +1,7 @@
 'use strict';
 (function(){
 
-class PlantsController {
+class PlantsComponent {
   constructor($http, $scope, socket) {
     this.$http = $http;
     this.socket = socket;
@@ -37,7 +37,7 @@ class PlantsController {
 angular.module('plantrApp')
   .component('plants', {
     templateUrl: 'app/plants/plants.html',
-    controller: PlantsController
+    controller: PlantsComponent
   });
 
 })();
